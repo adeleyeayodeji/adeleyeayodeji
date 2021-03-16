@@ -10,9 +10,9 @@ When working on a new project, I like to speak with my clients so that I can hav
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on Twitter Clone
-- 🌱 I’m currently learning Laravel Lifewire
-- 💬 Ask me about Laravel React
+- 🔭 I’m currently working on Flutter App Dev
+- 🌱 I’m currently learning Flutter BLOC PATTERN
+- 💬 Ask me about Flutter
 - 📫 How to reach me: https://adeleyeayodeji.com
 - ⚡ Fun fact: I love writting code for FUN
 
