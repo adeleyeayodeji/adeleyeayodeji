@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: application/xml; charset=utf-8");
-$base_url = "https://adeleyeayodeji.com/";
+$base_url = "https://www.adeleyeayodeji.com/";
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL;
 
@@ -15,7 +15,9 @@ $allsub = array(
     "result",
     "script",
     "selftest",
-    "simpleapi"
+    "simpleapi",
+    "widgets",
+    "notification"
 );
 
 for ($i = 0; $i < count($allsub); $i++) {

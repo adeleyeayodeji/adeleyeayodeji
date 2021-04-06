@@ -12,16 +12,32 @@
 	var formMessages = $('.form-message');
 	$(form).submit(function(e) {
 		e.preventDefault();
-		var name = $("#name").val();
+		console.log('Well');
+		//Google verification
+		grecaptcha.ready(function() {
+          grecaptcha.execute('6LcwiVwaAAAAANP6Jok7LKD8oC1EgM1Zt1p8n2BT', {action: 'submit'}).then(function(token) {
+              // Add your logic to submit to your backend server here.
+        var name = $("#name").val();
 		var email = $("#email").val();
 		var message = $("#message").val();
+		if(email == ""){
+		    alert("Email can't be empty");
+		    return;
+		}else if(name == ""){
+		    alert("Name can't be empty");
+		    return;
+		}else if(message == ""){
+		    alert("Message can't be empty");
+		    return;
+		}
 		$.ajax({
 			type: 'POST',
 			url: $(form).attr('action'),
 			data: {
-				"name" : name,
-				"email" : email,
-				"message" : message
+				name,
+				email,
+				message,
+				token
 			},
 			success : function (response) {
 				if (response == "Mail sent") {
@@ -37,16 +53,19 @@
 				}else{
 					$(formMessages).removeClass("success");
 					$(formMessages).addClass("error");
-					$(formMessages).text("Could not send mail");
+					$(formMessages).text(response);
 					console.error(response);
 
 					//Clear values
-					var name = $("#name").val("");
-					var email = $("#email").val("");
-					var message = $("#message").val("");
+				// 	var name = $("#name").val("");
+				// 	var email = $("#email").val("");
+				// 	var message = $("#message").val("");
 				}
 			}
 		});
+          });
+        });
+	
 
 	});
 })(jQuery);
