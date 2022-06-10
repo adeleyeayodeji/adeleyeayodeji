@@ -16,3 +16,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: https://adeleyeayodeji.com
 - ⚡ Fun fact: I love writting code for FUN
 
+## My GitHub Statistics
+[![Max Weber GitHub Stats](https://github-readme-stats.vercel.app/api?username=adeleyeayodeji&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=adeleyeayodeji)](https://github.com/anuraghazra/github-readme-stats)
