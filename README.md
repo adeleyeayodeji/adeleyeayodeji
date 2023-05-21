@@ -10,9 +10,9 @@ When working on a new project, I like to speak with my clients so that I can hav
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on Flutter App Dev
-- 🌱 I’m currently learning Flutter BLOC PATTERN
-- 💬 Ask me about Flutter
+- 🔭 I first personal project: https://resultarena.com
+- 🌱 I’m currently working on my WordPress Block Theme
+- 💬 Ask me about WordPress Development
 - 📫 How to reach me: https://adeleyeayodeji.com
 - ⚡ Fun fact: I love writting code for FUN
 
