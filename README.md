@@ -10,13 +10,9 @@ When working on a new project, I like to speak with my clients so that I can hav
 
 Here are some ideas to get you started:
 
-- 🔭 I first personal project: https://resultarena.com
-- 🌱 I’m currently working on my WordPress Block Theme
+- 🔭 Personal project: https://resultarena.com
 - 💬 Ask me about WordPress Development
 - 📫 How to reach me: https://adeleyeayodeji.com
 - ⚡ Fun fact: I love writting code for FUN
-
-## My GitHub Statistics
-[![Max Weber GitHub Stats](https://github-readme-stats.vercel.app/api?username=adeleyeayodeji&show_icons=true&theme=onedark)](https://github.com/adeleyeayodeji)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=adeleyeayodeji)](https://github.com/adeleyeayodeji)
