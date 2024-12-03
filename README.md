@@ -14,5 +14,3 @@ Here are some ideas to get you started:
 - 💬 Ask me about WordPress Development
 - 📫 How to reach me: https://adeleyeayodeji.com
 - ⚡ Fun fact: I love writting code for FUN
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=adeleyeayodeji)](https://github.com/adeleyeayodeji)
